@@ -1,0 +1,39 @@
+{
+  "name": "custom-i3status",
+  "version": "1.0.0",
+  "description": "A custom i3status-like script for i3bar",
+  "dependencies": {
+    "moment": "^2.6.0"
+  },
+  "devDependencies": {
+    "livescript": "^1.5.0"
+  },
+  "scripts": {
+    "build": "lsc --no-header -c .",
+    "watch": "lsc --no-header -cw .",
+    "start": "node custom-i3status.js",
+    "prepublish": "lsc --no-header -c ."
+  },
+  "bin": {
+    "custom-i3status": "./custom-i3status.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yousefamar/custom-i3status.git"
+  },
+  "keywords": [
+    "i3bar",
+    "i3status",
+    "i3",
+    "status",
+    "bar",
+    "info",
+    "information"
+  ],
+  "author": "Yousef Amar <yousef@amar.io> (http://yousefamar.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yousefamar/custom-i3status/issues"
+  },
+  "homepage": "https://github.com/yousefamar/custom-i3status#readme"
+}

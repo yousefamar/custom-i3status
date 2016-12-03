@@ -1,4 +1,4 @@
-#!/usr/bin/lsc
+``#!/usr/bin/env node``
 
 /**
  * @author Yousef Amar / http://yousefamar.com
